@@ -1,0 +1,26 @@
+{
+  "name": "belajar-backend",
+  "version": "1.0.0",
+  "description": "Project ini adalah hasil saya belajar backend jadi ini hanyalah untuk pembelajaran dan saya tidak menyarankan menggunakan nya di public,use this your own risk.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M0jo570/belajar-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/M0jo570/belajar-backend/issues"
+  },
+  "homepage": "https://github.com/M0jo570/belajar-backend#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cheerio": "^1.1.2",
+    "express": "^5.1.0"
+  }
+}
