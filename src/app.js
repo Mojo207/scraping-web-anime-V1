@@ -15,7 +15,7 @@ const app = express();
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("Otakudesu scr/aping by mojoWasTaken");
+  res.send("Otakudesu scraping by mojoWasTaken");
 });
 
 // router
