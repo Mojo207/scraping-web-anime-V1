@@ -242,7 +242,7 @@ async function getScheduleByDay(req, res) {
     });
   } catch(err) {
     console.log("[CONTROLLER SCHEDULE BY DAY EROR]:", err.message);
-    res.statu(500).json({
+    res.status(500).json({
       status: false,
       eror: err.message,
     });
