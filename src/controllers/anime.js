@@ -121,7 +121,7 @@ async function getEpisode(req, res) {
     console.log("\n=== REQUEST EPISODE ===");
     console.log("Slug:", slug);
     
-    const result = await scrapeEpisode(slug);  // ⬅️ cukup kirim slug
+    const result = await scrapeEpisode(slug);
 
     if (!result || !result.episode) {
       return res.status(500).json(result || {
